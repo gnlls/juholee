@@ -1,0 +1,73 @@
+.mama3{
+    text-align: left;
+    color: rgb(78, 81, 113);
+    font-size: 100px;
+    margin: 40px;
+    margin-bottom: 60px;
+    margin-top: 200px;
+    /* margin-top: 0px; */
+    /* font-weight: lighter; */
+    
+}
+.papa3{
+    float: left;
+    margin: 20px;
+   
+}
+.sun3{
+    margin-left: 40px;
+}
+.custom-image3 {
+cursor: url('https://cdn-icons-png.flaticon.com/128/17043/17043396.png'), auto; /* 사용자 정의 커서 */
+}
+
+body {
+margin: 0;
+padding-top: 50px;
+font-family: Arial, Helvetica, sans-serif;
+min-width : 100px;
+}
+.navbar {
+background-color: white; /* 배경색 */
+color: black; /* 텍스트 색상 */
+padding: 10px 20px; /* 안쪽 여백 */
+display: flex; /*Flexbox 레이아웃을 사용*/
+justify-content: space-between; /*왼쪽과 오른쪽에 요소를 배치*/
+align-items: center; /* 세로 정렬을 중앙에 맞춤 */
+position: fixed; /* 화면에 고정 */
+width: 100%; /* 너비 100%로 설정 */
+top: 0; /* 상단에 위치 */
+z-index: 1000; /* 다른 요소들보다 위에 위치 */
+}
+
+.navbar-logo {
+font-size: 10px;
+font-weight: bold;
+text-decoration: none; /* 밑줄 제거 */
+color: black; /* 로고 텍스트 색상 */
+padding: 5px 10px; /* 로고 주변 여백 추가 */
+font-weight: lighter;
+}
+
+.navbar-menu {
+list-style: none; /* 목록 점 제거 */
+display: flex; /* 수평 정렬 */
+gap: 100px; /* 항목 사이 간격 */
+padding: 0;
+margin: 0px 50px;
+font-size: 50px;
+/* grid-template-columns: 300px 1fr; */
+
+}
+
+.navbar-menu a {
+text-decoration: none; /* 링크 밑줄 제거 */
+color: black; /* 링크 색상 */
+font-size: 16px;
+padding: 10px 15px; /* 링크 주변의 여백 추가 */
+display: block; /* 링크를 블록 요소로 변경하여 패딩을 제대로 적용 */
+text-align: center; /* 텍스트를 가운데 정렬 */
+border-radius: 5px; /* 둥근 모서리 */
+transition: background-color 0.3s; /* 배경색 전환 효과 */
+font-weight: bolder;
+}
